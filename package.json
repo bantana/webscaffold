@@ -1,0 +1,16 @@
+{
+  "name": "postcssp1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.9",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
