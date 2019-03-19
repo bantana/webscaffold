@@ -1,0 +1,35 @@
+@charset "utf-8";
+$color-primary: #ddd;
+$color-secondary: darken($color-primary, 15%);
+$color-background: lighten($color-secondary, 20%);
+
+.primary {
+  background-color: $color-primary;
+}
+.secondary {
+  background-color: $color-secondary;
+}
+.bg {
+  background-color: $color-background;
+}
+
+h1 {
+  font-family: serif;
+}
+
+#page-title {
+  font-family: sans-serif;
+}
+
+.title {
+  font-family: monospace;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  li {
+    margin-right: 1em;
+  }
+}
